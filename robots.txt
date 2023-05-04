@@ -2,4 +2,4 @@
 User-agent:*
 Disallow:
 
-Sitemap: https://vuepress-theme-hope-docs-demo.netlify.app/3w-frontend-platform/sitemap.xml
+Sitemap: https://summer.alexsun.top/3w-frontend-platform/3w-frontend-platform/sitemap.xml
