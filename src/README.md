@@ -1,24 +1,24 @@
 ---
 home: true
 icon: home
-title: 3W-knowledge-platform
+title: 3w知识平台
 heroImage: /logo.svg
-heroText: 3W-knowledge-platform
-tagline: You can place all your notes here.
+heroText: 3w知识平台
+tagline: 你可以在这里放置你所有的笔记。
 actions:
-  - text: Start using 💡
-    link: /demo/
+  - text: 开始使用 💡
+    link: /zh/demo/
     type: primary
 
 features:
-  - title: Simple and Convenient
+  - title: 简便
     icon: markdown
-    details: A Markdown centric project structure that helps you focus on writing with minimal configuration.
+    details: 以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。
 
-  - title: Collaborate
+  - title: 协作
     icon: info
-    details: Jointly completed by all members of 3W Society.
+    details: 由3w社的所有人共同完成。  
 
 copyright: false
-footer: 3W-knowledge-platform
+footer: 3w知识平台
 ---

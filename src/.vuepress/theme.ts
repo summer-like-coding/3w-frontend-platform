@@ -5,12 +5,7 @@ import { enSidebar, zhSidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   // 当前网站需要部署到的域名
-  hostname: "https://vuepress-theme-hope-docs-demo.netlify.app",
-
-  author: {
-    name: "Mr.Hope",
-    url: "https://mrhope.site",
-  },
+  hostname: "https://summer.alexsun.top/3w-frontend-platform/",
 
   iconAssets: "iconfont",
 
@@ -21,7 +16,7 @@ export default hopeTheme({
   docsDir: "src",
   //可以在locales里，为多种语言进行不同的配置
   locales: {
-    "/": {
+    "/en/": {
       // navbar
       navbar: enNavbar,
 
@@ -40,7 +35,7 @@ export default hopeTheme({
     /**
      * Chinese locale config
      */
-    "/zh/": {
+    "/": {
       // navbar
       navbar: zhNavbar,
 
@@ -87,9 +82,10 @@ export default hopeTheme({
       playground: {
         presets: ["ts", "vue"],
       },
-      presentation: {
-        plugins: ["highlight", "math", "search", "notes", "zoom"],
-      },
+      // 幻灯片，暂时用不到
+      // presentation: {
+      //   plugins: ["highlight", "math", "search", "notes", "zoom"],
+      // },
       stylize: [
         {
           matcher: "Recommended",
