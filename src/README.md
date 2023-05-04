@@ -1,13 +1,12 @@
 ---
 home: true
-icon: home
 title: 3w知识平台
 heroImage: /logo.svg
 heroText: 3w知识平台
 tagline: 你可以在这里放置你所有的笔记。
 actions:
   - text: 开始使用 💡
-    link: /zh/demo/
+    link: /demo/
     type: primary
 
 features:
@@ -17,7 +16,7 @@ features:
 
   - title: 协作
     icon: info
-    details: 由3w社的所有人共同完成。  
+    details: 由3w社的所有人共同完成。致力于打造一个属于我们自己的知识网络。  
 
 copyright: false
 footer: 3w知识平台

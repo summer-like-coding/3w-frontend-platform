@@ -1,7 +1,6 @@
 import { hopeTheme } from "vuepress-theme-hope";
-import { enNavbar, zhNavbar } from "./navbar/index.js";
-import { enSidebar, zhSidebar } from "./sidebar/index.js";
-
+import { Navbar } from "./navbar/index.js";
+import { Sidebar } from "./sidebar/index.js";
 
 export default hopeTheme({
   // 当前网站需要部署到的域名
@@ -15,53 +14,23 @@ export default hopeTheme({
 
   docsDir: "src",
   //可以在locales里，为多种语言进行不同的配置
-  locales: {
-    "/en/": {
-      // navbar
-      navbar: enNavbar,
 
-      // sidebar
-      sidebar: enSidebar,
+  // navbar
+  navbar: Navbar,
 
-      footer: "Default footer",
+  // sidebar
+  sidebar: Sidebar,
 
-      displayFooter: true,
+  footer: "默认页脚",
 
-      metaLocales: {
-        editLink: "Edit this page on GitHub",
-      },
-    },
+  displayFooter: true,
 
-    /**
-     * Chinese locale config
-     */
-    "/": {
-      // navbar
-      navbar: zhNavbar,
-
-      // sidebar
-      sidebar: zhSidebar,
-
-      footer: "默认页脚",
-
-      displayFooter: true,
-
-      // page meta
-      metaLocales: {
-        editLink: "在 GitHub 上编辑此页",
-      },
-    },
-  },
-
-  encrypt: {
-    config: {
-      "/demo/encrypt.html": ["1234"],
-      "/zh/demo/encrypt.html": ["1234"],
-    },
+  // page meta
+  metaLocales: {
+    editLink: "在 GitHub 上编辑此页",
   },
 
   plugins: {
-
     // all features are enabled for demo, only preserve features you need here
     mdEnhance: {
       align: true,
@@ -105,5 +74,5 @@ export default hopeTheme({
       vPre: true,
       vuePlayground: true,
     },
-  }
+  },
 });

@@ -1,6 +1,5 @@
 ---
 title: Bar 功能
-icon: creative
 ---
 
 ## 介绍

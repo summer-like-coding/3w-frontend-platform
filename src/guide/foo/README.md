@@ -1,6 +1,5 @@
 ---
 title: Foo 功能
-icon: config
 ---
 
 ## 介绍
