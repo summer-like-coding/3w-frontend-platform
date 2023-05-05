@@ -2,7 +2,7 @@
 # 这是文章的标题
 title: 字符串基本概念
 # 这是侧边栏的顺序
-# order: 1
+order: 1
 # 设置作者
 author: Summer
 # 设置写作时间
