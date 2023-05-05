@@ -17,18 +17,3 @@ tag:
 
 
 ## 定义
-
-链表是指指针串在一起的线性数据结构
-
-`ListNode`定义
-
-```typescript
-export default class ListNode{
-    public val: number;
-    public next: ListNode | null;
-    constructor(val?: number, next?: ListNode | null) {
-        this.val = (val === undefined ? 0 : val);
-        this.next = (next === undefined ? null : next);
-    }
-}
-```
