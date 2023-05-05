@@ -6,7 +6,7 @@ heroText: 3w知识平台
 tagline: 你可以在这里放置你所有的笔记。
 actions:
   - text: 开始使用 💡
-    link: /demo/
+    link: /algorithm-solution/
     type: primary
 
 features:

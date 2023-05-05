@@ -3,6 +3,7 @@ import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 export default defineUserConfig({
   base: "/3w-frontend-platform/",
+  lang: 'zh-CN',
   theme,
   plugins: [
     // 配置搜索内容

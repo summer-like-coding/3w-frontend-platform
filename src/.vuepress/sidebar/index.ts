@@ -4,15 +4,11 @@ export const Sidebar = sidebar({
   "/": [
     "",
     {
-      text: "案例",
-      prefix: "demo/",
-      link: "demo/",
-      children: "structure",
-    },
-    {
-      text: "文档",
-      prefix: "guide/",
-      children: "structure",
+      text: "算法题解",
+      prefix: "algorithm-solution/",
+      link: "algorithm-solution/",
+      // 设置structure会根据本地文件，自动生成侧边栏
+      children: "structure"
     },
     // 幻灯片
     // "slides",

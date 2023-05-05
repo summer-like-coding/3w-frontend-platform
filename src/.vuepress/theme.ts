@@ -1,7 +1,6 @@
-import { hopeTheme } from "vuepress-theme-hope";
+import { copyCode, hopeTheme } from "vuepress-theme-hope";
 import { Navbar } from "./navbar/index.js";
 import { Sidebar } from "./sidebar/index.js";
-
 export default hopeTheme({
   // 当前网站需要部署到的域名
   hostname: "https://summer.alexsun.top/3w-frontend-platform/",
@@ -21,7 +20,7 @@ export default hopeTheme({
   // sidebar
   sidebar: Sidebar,
 
-  footer: "默认页脚",
+  // footer: "MIT Licensed | Copyright © 2023-present Summer",
 
   displayFooter: true,
 
@@ -74,5 +73,14 @@ export default hopeTheme({
       vPre: true,
       vuePlayground: true,
     },
+    // 自动生成目录
+    autoCatalog: {
+      
+    },
+    // 代码复制
+    copyCode: {
+      // 在移动端显示复制按钮
+      showInMobile:true
+    }
   },
 });
