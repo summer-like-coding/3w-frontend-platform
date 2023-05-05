@@ -1,6 +1,6 @@
 # 3w知识平台
 
-🚀 [立刻查看 Demo 页面](https://summer.alexsun.top/3w-frontend-platform/).  
+🚀 [立刻查看 Demo 页面](https://summer.alexsun.top/3w-platform/).  
   
 ❤️特征：
 - 🎉 VuePress2 (Vue3 + Vite4 + TS)

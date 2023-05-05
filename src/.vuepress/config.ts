@@ -2,7 +2,7 @@ import { defineUserConfig } from "vuepress";
 import theme from "./theme.js";
 import { searchProPlugin } from "vuepress-plugin-search-pro";
 export default defineUserConfig({
-  base: "/3w-frontend-platform/",
+  base: "/3w-platform/",
   lang: 'zh-CN',
   theme,
   plugins: [
