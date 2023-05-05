@@ -1,0 +1,1 @@
+import{_ as t,X as c,Y as a,$ as e,a2 as o}from"./framework-71fc1c0e.js";const n={},r=e("h2",{id:"定义",tabindex:"-1"},[e("a",{class:"header-anchor",href:"#定义","aria-hidden":"true"},"#"),o(" 定义")],-1),s=[r];function _(d,i){return c(),a("div",null,s)}const l=t(n,[["render",_],["__file","conception.html.vue"]]);export{l as default};
