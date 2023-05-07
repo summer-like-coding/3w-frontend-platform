@@ -16,6 +16,9 @@ tag:
   - 字符串
 ---
 
+## 题目链接
+[表示数值的字符串](https://leetcode.cn/problems/biao-shi-shu-zhi-de-zi-fu-chuan-lcof/)
+
 ## 题目描述
 
 判断这个数是不是数值，其实就是类似于实现一个`Number()`

@@ -16,6 +16,10 @@ tag:
   - 字符串
 ---
 
+## 题目链接
+
+[替换空格](https://leetcode.cn/problems/ti-huan-kong-ge-lcof/)
+
 ## 题目描述
 
 将字符串里面的的空格替换为`%20`

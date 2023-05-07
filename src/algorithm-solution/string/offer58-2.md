@@ -16,6 +16,9 @@ tag:
   - 字符串
 ---
 
+## 题目链接
+[左旋转字符串](https://leetcode.cn/problems/zuo-xuan-zhuan-zi-fu-chuan-lcof/)
+
 ## 题目描述
 题目写了一大串，重要的一句：**把字符串前面的若干个字符转移到字符串的尾部**。
 

@@ -8,7 +8,14 @@ export const Sidebar = sidebar({
       prefix: "algorithm-solution/",
       link: "algorithm-solution/",
       // 设置structure会根据本地文件，自动生成侧边栏
-      children: "structure"
+      children: "structure",
+    },
+    {
+      text: "掘金小册阅读感悟",
+      prefix: "booklet/",
+      link: "booklet/",
+      // 设置structure会根据本地文件，自动生成侧边栏
+      children: "structure",
     },
     // 幻灯片
     // "slides",
