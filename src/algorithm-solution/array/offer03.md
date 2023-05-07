@@ -39,9 +39,8 @@ tag:
     ```
 
 2. 直接使用`indexOf()`(但是直接过滤)
-    ::: code-tab#code
+    ::: code-tabs#code
     @tab typescript
-
     ```typescript
     let arr =  nums.filter((value,index)=>{
         return nums.lastIndexOf(value) !== index
