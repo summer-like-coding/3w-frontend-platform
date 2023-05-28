@@ -31,42 +31,45 @@ tag:
     @tab typescript
 
     ```typescript
-        function reversePrint(head: ListNode | null): number[] {
-        // 因为返回结果为数组，直接reverse
-        let res:number[] = []
-        while (head !== null) {
-            res.push(head.val)
-            head = head.next
-
-        }
-        return res.reverse()
-    };
+    function reversePrint(head: ListNode | null): number[] {
+      // 因为返回结果为数组，直接reverse
+      let res: number[] = [];
+      while (head !== null) {
+        res.push(head.val);
+        head = head.next;
+      }
+      return res.reverse();
+    }
     ```
 
-2.   将链表反转以后，然后再将链表一个一个打印出来
-     :::code-tabs#code
-     @tab typescript
-     ```typescript
-        function reversePrint(head: ListNode | null): number[] {
-            // 设置一个结果承接
-            // 首先先反转这个链表，然会再去打印链表
-            let res: number[] = []
-            let pre = null
-            let next = null
-            let cur = head
-            while (cur !== null) {
-                next = cur.next
-                cur.next = pre
-                pre = cur
-                cur = next
-            }
-            while (pre !== null) {
-                res.push(pre.val)
-                pre = pre.next
-            }
-            return res
-        };
-     ``` 
-     注意：
-     1. 如何去反转链表，一定是需要**三个指针**，分别表示`pre`,`cur`,`next`
-     2. 注意他们三个指针的替换顺序
+2.  将链表反转以后，然后再将链表一个一个打印出来
+    :::code-tabs#code
+    @tab typescript
+    ```typescript
+    function reversePrint(head: ListNode | null): number[] {
+      let pre: ListNode | null = null;
+      let cur: ListNode | null = head;
+      let next: ListNode | null = null;
+      const res: number[] = [];
+      // 遍历链表
+      while (cur !== null) {
+        // 搞好退路
+        next = cur.next;
+        // 反转
+        cur.next = pre;
+        // 更新指针
+        pre = cur;
+        cur = next;
+      }
+      // 此时pre指向反转后的头结点
+      // 遍历打印反转链表
+      while (pre !== null) {
+        res.push(pre.val);
+        pre = pre.next;
+      }
+      return res;
+    }
+    ```
+    注意：
+    1.  如何去反转链表，一定是需要**三个指针**，分别表示`pre`,`cur`,`next`
+    2.  注意他们三个指针的替换顺序
