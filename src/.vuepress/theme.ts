@@ -22,6 +22,8 @@ export default hopeTheme({
 
   // footer: "MIT Licensed | Copyright © 2023-present Summer",
 
+  footer:
+    '<a href="https://beian.miit.gov.cn/" target="_blank">苏ICP备2023012081号</a>',
   displayFooter: true,
 
   // page meta
@@ -74,13 +76,11 @@ export default hopeTheme({
       vuePlayground: true,
     },
     // 自动生成目录
-    autoCatalog: {
-      
-    },
+    autoCatalog: {},
     // 代码复制
     copyCode: {
       // 在移动端显示复制按钮
-      showInMobile:true
-    }
+      showInMobile: true,
+    },
   },
 });

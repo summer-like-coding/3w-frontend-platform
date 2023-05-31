@@ -1,7 +1,7 @@
 ---
 title: Offer58-1-翻转单词顺序
-author: summer
-date: 2023-5-28
+author: Summer
+date: 2023-05-28
 category:
   - 算法题解
   - 剑指Offer

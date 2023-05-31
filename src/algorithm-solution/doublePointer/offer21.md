@@ -1,7 +1,7 @@
 ---
 title: Offer21-调整数组顺序使奇数位于偶数前面
 author: summer
-date: 2023-5-28
+date: 2023-05-28
 category:
   - 算法题解
   - 剑指Offer

@@ -1,7 +1,7 @@
 ---
 title: Offer57-和为s的两个数字
 author: summer
-date: 2023-5-28
+date: 2023-05-28
 category:
   - 算法题解
   - 剑指Offer

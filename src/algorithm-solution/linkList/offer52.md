@@ -1,7 +1,7 @@
 ---
 title: Offer52-两个链表的第一个公共节点
 author: summer
-date: 2023-5-31
+date: 2023-05-31
 category:
   - 算法题解
   - 剑指Offer

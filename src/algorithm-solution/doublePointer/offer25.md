@@ -1,7 +1,7 @@
 ---
 title: Offer25-合并两个排序的链表
 author: summer
-date: 2023-5-30
+date: 2023-05-30
 category:
   - 算法题解
   - 剑指Offer

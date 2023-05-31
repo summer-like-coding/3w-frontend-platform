@@ -17,7 +17,4 @@ features:
   - title: 协作
     icon: info
     details: 由3w社的所有人共同完成, 致力于搭建属于自己的知识网络📇
-
-copyright: false
-footer: 3w知识平台
 ---

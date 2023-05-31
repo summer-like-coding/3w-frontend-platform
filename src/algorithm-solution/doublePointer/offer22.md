@@ -1,7 +1,7 @@
 ---
 title: Offer22-链表中倒数第k个节点
 anthor: summer
-date: 2023-5-30
+date: 2023-05-30
 category:
   - 算法题解
   - 剑指Offer
