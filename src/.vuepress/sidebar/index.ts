@@ -17,6 +17,12 @@ export const Sidebar = sidebar({
       // 设置structure会根据本地文件，自动生成侧边栏
       children: "structure",
     },
+    {
+      text:"杂项",
+      prefix:"others",
+      link:"others/",
+      children:"structure"
+    }
     // 幻灯片
     // "slides",
   ],
