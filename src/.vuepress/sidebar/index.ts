@@ -18,6 +18,13 @@ export const Sidebar = sidebar({
       children: "structure",
     },
     {
+      text: "操作系统",
+      prefix: "operating-system/",
+      link: "operating-system/",
+      // 设置structure会根据本地文件，自动生成侧边栏
+      children: "structure",
+    },
+    {
       text:"杂项",
       prefix:"others",
       link:"others/",
