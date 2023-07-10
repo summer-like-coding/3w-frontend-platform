@@ -11,6 +11,12 @@ export const Sidebar = sidebar({
       children: "structure",
     },
     {
+      text:"经典算法",
+      prefix:"classical-algorithm/",
+      link:"classical-algorithm/",
+      children:"structure"
+    },
+    {
       text: "掘金小册阅读感悟",
       prefix: "booklet/",
       link: "booklet/",
